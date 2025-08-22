@@ -8,9 +8,9 @@ const Ruleta = ({ list }) => {
 		textjson[i] = element.text;
 		colorjson[i] = element.color;
 	});
-	const [random1, setRandom1] = useState(textjson[1]);
-	const [random2, setRandom2] = useState(textjson[2]);
-	const [random3, setRandom3] = useState(textjson[3]);
+	const [random1, setRandom1] = useState('Character 1');
+	const [random2, setRandom2] = useState('Character 2');
+	const [random3, setRandom3] = useState('Character 3');
 
 	const randomize = () => {
 		let sel1 = Math.floor(Math.random() * listjson.length);
@@ -35,8 +35,8 @@ const Ruleta = ({ list }) => {
 	};
 
 	return (
-		<div className='relative'>
-			<div className='text-center text-xl'>
+		<div className='relative bg-opacity-0'>
+			<div className='text-center md:text-2xl text-xl'>
 				<ul className='block'>
 					<li className='bg-cyan-800 bg-opacity-90 h-20 flex justify-center items-center'>
 						{random1}
@@ -51,12 +51,12 @@ const Ruleta = ({ list }) => {
 			</div>
 			<div className='relative'>
 				<button
-					className='bg-orange-600 w-full h-28 bg-opacity-90 transition ease-out duration-500 delay-0 hover:bg-orange-800 hover:bg-opacity-90 text-3xl'
+					className='bg-orange-600 w-full h-28 bg-opacity-90 transition ease-out duration-500 delay-0 hover:bg-orange-800 hover:bg-opacity-90 md:text-4xl text-center'
 					onClick={() => {
 						randomize();
 					}}
 				>
-					<b>Generar Equipo</b>
+					<b>Generate Team</b>
 				</button>
 			</div>
 			<div className='border-8 border-zinc-700 rounded-xl absolute w-[102%] h-[103%] -top-[2%] -left-[1%] pointer-events-none'></div>

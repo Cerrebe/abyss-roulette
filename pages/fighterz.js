@@ -18,27 +18,27 @@ export default function Home({ chars }) {
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 			<div>
-				<div className='w-full'>
-					<div className="bg-[url('../public/css.jpg')] left-[35%] top-[2%] w-[30%] h-[30%] bg-no-repeat absolute bg-contain bg-center -z-10"></div>
-					<div className="bg-[url('../public/cala.jpg')] left-[15%] top-[2%] w-[25%] h-[25%] bg-no-repeat absolute bg-contain bg-center -z-10"></div>
-					<div className="bg-[url('../public/ssj.jpg')] left-[35%] top-[70%] w-[30%] h-[30%] bg-no-repeat absolute bg-contain bg-center -z-10"></div>
-					<div className="bg-[url('../public/blue.jpg')] left-[75%] top-[78%] w-[20%] h-[20%] bg-no-repeat absolute bg-contain bg-center -z-10"></div>
-					<div className="bg-[url('../public/calvo.jpg')] left-[75%] top-[2%] w-[20%] h-[20%] bg-no-repeat absolute bg-contain bg-center -z-10"></div>
-					<div className="bg-[url('../public/bardock.jpg')] left-[4%] top-[78%] w-[20%] h-[20%] bg-no-repeat absolute bg-contain bg-center -z-10"></div>
-					<div className="bg-[url('../public/simon.jpg')] left-[0%] top-[8%] w-[15%] h-[15%] bg-no-repeat absolute bg-contain bg-center -z-10"></div>
-					<div className="bg-[url('../public/kaio.png')] left-[61%] top-[74%] w-[15%] h-[15%] bg-no-repeat absolute bg-contain bg-center -z-10"></div>
-					<div className="bg-[url('../public/ui.jpg')] left-[60%] top-[18%] w-[10%] h-[10%] bg-no-repeat absolute bg-contain bg-center -z-10"></div>
-					<div className="bg-[url('../public/lab.webp')] left-[8%] top-[9%] w-[17%] h-[17%] bg-no-repeat absolute bg-contain bg-center -z-20"></div>
-					<div className="bg-[url('../public/peter.jpg')] left-[47%] top-[42%] w-[10%] h-[10%] bg-no-repeat absolute bg-contain bg-center -z-20 opacity-20"></div>
-					<div className="bg-[url('../public/black.jpg')] left-[65%] top-[5%] w-[10%] h-[10%] bg-no-repeat absolute bg-contain bg-center -z-20"></div>
-					<div className="bg-[url('../public/ku.jpg')] left-[88%] top-[36%] w-[12%] h-[12%] bg-no-repeat absolute bg-contain bg-center -z-20"></div>
-					<div className="bg-[url('../public/veg.jpg')] left-[2%] top-[37%] w-[8%] h-[8%] bg-no-repeat absolute bg-contain bg-center -z-20"></div>
+				<div className='absolute w-full h-full sm:block hidden'>
+					<div className="bg-[url('../public/css.jpg')] left-[35%] top-[2%] w-[30%] h-[30%] bg-no-repeat absolute bg-contain bg-center -z-10 pointer-events-none"></div>
+					<div className="bg-[url('../public/cala.jpg')] left-[15%] top-[2%] w-[25%] h-[25%] bg-no-repeat absolute bg-contain bg-center -z-10 pointer-events-none"></div>
+					<div className="bg-[url('../public/ssj.jpg')] left-[35%] top-[70%] w-[30%] h-[30%] bg-no-repeat absolute bg-contain bg-center -z-10 pointer-events-none"></div>
+					<div className="bg-[url('../public/blue.jpg')] left-[75%] top-[78%] w-[20%] h-[20%] bg-no-repeat absolute bg-contain bg-center -z-10 pointer-events-none"></div>
+					<div className="bg-[url('../public/calvo.jpg')] left-[75%] top-[2%] w-[20%] h-[20%] bg-no-repeat absolute bg-contain bg-center -z-10 pointer-events-none"></div>
+					<div className="bg-[url('../public/bardock.jpg')] left-[4%] top-[78%] w-[20%] h-[20%] bg-no-repeat absolute bg-contain bg-center -z-10 pointer-events-none"></div>
+					<div className="bg-[url('../public/simon.jpg')] left-[0%] top-[8%] w-[15%] h-[15%] bg-no-repeat absolute bg-contain bg-center -z-10 pointer-events-none"></div>
+					<div className="bg-[url('../public/kaio.png')] left-[61%] top-[74%] w-[15%] h-[15%] bg-no-repeat absolute bg-contain bg-center -z-10 pointer-events-none"></div>
+					<div className="bg-[url('../public/ui.jpg')] left-[60%] top-[18%] w-[10%] h-[10%] bg-no-repeat absolute bg-contain bg-center -z-10 pointer-events-none"></div>
+					<div className="bg-[url('../public/lab.webp')] left-[8%] top-[9%] w-[17%] h-[17%] bg-no-repeat absolute bg-contain bg-center -z-20 pointer-events-none"></div>
+					<div className="bg-[url('../public/peter.jpg')] left-[47%] top-[42%] w-[10%] h-[10%] bg-no-repeat absolute bg-contain bg-center -z-20 opacity-20 pointer-events-none"></div>
+					<div className="bg-[url('../public/black.jpg')] left-[65%] top-[5%] w-[10%] h-[10%] bg-no-repeat absolute bg-contain bg-center -z-20 pointer-events-none"></div>
+					<div className="bg-[url('../public/ku.jpg')] left-[88%] top-[36%] w-[12%] h-[12%] bg-no-repeat absolute bg-contain bg-center -z-20 pointer-events-none"></div>
+					<div className="bg-[url('../public/veg.jpg')] left-[2%] top-[37%] w-[8%] h-[8%] bg-no-repeat absolute bg-contain bg-center -z-20 pointer-events-none"></div>
 				</div>
-				<div className='block'>
-					<div className='inline-block float-left ml-48 mt-72 w-1/4'>
+				<div className='sm:block'>
+					<div className='sm:inline-block sm:float-left sm:fixed lg:left-[12%] sm:left-[10%] sm:top-[30%] lg:w-1/4 sm:my-0 sm:mx-0 my-10 mx-6'>
 						<Ruleta list={chars} />
 					</div>
-					<div className='inline-block float-right mr-48 mt-72 w-1/4'>
+					<div className='sm:inline-block sm:float-right sm:fixed lg:right-[12%] sm:right-[10%] sm:top-[30%] lg:w-1/4 sm:my-0 sm:mx-0 my-10 mx-6'>
 						<Ruleta list={chars} />
 					</div>
 				</div>

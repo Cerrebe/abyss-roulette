@@ -20,7 +20,9 @@ export default function Home({ bans, part }) {
 			<div className='absolute w-full h-full bg-slate-800'></div>
 			<div className=''>
 				<div>
-					<div className='w-full'></div>
+					<div className='w-full'>
+						<div className="bg-[url('../public/profe.jpg')] left-[26%] top-[20%] w-[50%] h-[50%] bg-no-repeat absolute bg-contain bg-center z-10"></div>
+					</div>
 				</div>
 			</div>
 		</>
