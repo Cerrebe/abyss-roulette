@@ -36,7 +36,7 @@ const Ruleta = ({ list }) => {
 
 	return (
 		<div className='relative bg-opacity-0'>
-			<div className='text-center md:text-2xl text-xl'>
+			<div className='text- lg:text-3xl md:text-2xl sm:text-xl text-3xl'>
 				<ul className='block'>
 					<li className='bg-cyan-800 bg-opacity-90 h-20 flex justify-center items-center'>
 						{random1}
@@ -51,7 +51,7 @@ const Ruleta = ({ list }) => {
 			</div>
 			<div className='relative'>
 				<button
-					className='bg-orange-600 w-full h-28 bg-opacity-90 transition ease-out duration-500 delay-0 hover:bg-orange-800 hover:bg-opacity-90 md:text-4xl text-center'
+					className='bg-orange-600 w-full h-28 bg-opacity-90 transition ease-out duration-500 delay-0 hover:bg-orange-800 hover:bg-opacity-90 lg:text-5xl md:text-4xl sm:text-3xl text-4xl text-center'
 					onClick={() => {
 						randomize();
 					}}

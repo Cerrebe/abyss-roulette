@@ -35,10 +35,10 @@ export default function Home({ chars }) {
 					<div className="bg-[url('../public/veg.jpg')] left-[2%] top-[37%] w-[8%] h-[8%] bg-no-repeat absolute bg-contain bg-center -z-20 pointer-events-none"></div>
 				</div>
 				<div className='sm:block'>
-					<div className='sm:inline-block sm:float-left sm:fixed lg:left-[12%] sm:left-[10%] sm:top-[30%] lg:w-1/4 sm:my-0 sm:mx-0 my-10 mx-6'>
+					<div className='sm:inline-block sm:float-left sm:fixed lg:left-[12%] sm:left-[10%] sm:top-[30%] lg:w-1/4 sm:w-1/3 sm:my-0 sm:mx-0 my-10 mx-6'>
 						<Ruleta list={chars} />
 					</div>
-					<div className='sm:inline-block sm:float-right sm:fixed lg:right-[12%] sm:right-[10%] sm:top-[30%] lg:w-1/4 sm:my-0 sm:mx-0 my-10 mx-6'>
+					<div className='sm:inline-block sm:float-right sm:fixed lg:right-[12%] sm:right-[10%] sm:top-[30%] lg:w-1/4 sm:w-1/3 sm:my-0 sm:mx-0 my-10 mx-6'>
 						<Ruleta list={chars} />
 					</div>
 				</div>
